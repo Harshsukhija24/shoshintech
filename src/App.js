@@ -53,7 +53,7 @@ const App = () => {
                 </div>
                 <div>
                   <img
-                    src="./frame.png"
+                    src="./Frame.png"
                     alt="Total Employees"
                     className="w-16 h-14"
                   />
@@ -68,7 +68,7 @@ const App = () => {
                 </div>
                 <div>
                   <img
-                    src="./frame1.png"
+                    src="./Frame1.png"
                     alt="Talent Request"
                     className="w-16 h-14"
                   />

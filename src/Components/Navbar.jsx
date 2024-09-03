@@ -2,10 +2,10 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="w-full h-[40px] flex items-center justify-between px-8 ">
+    <nav className="w-full h-[40px] flex items-center justify-between px-4 sm:px-8 bg-white shadow-md">
       {/* Search Bar */}
       <div className="flex-grow flex items-center">
-        <div className="w-[300px] h-[40px] flex items-center border border-gray-300 rounded-lg ml-[-40px]">
+        <div className="w-full sm:w-[300px] h-[40px] flex items-center border border-gray-300 rounded-lg">
           <input
             type="text"
             placeholder="Search..."
@@ -28,12 +28,8 @@ const Navbar = () => {
           alt="Profile"
           className="w-7 h-7 rounded-full"
         />
-        <p className="text-lg font-medium">Admirra John</p>
-        <img
-          src="./Vector.png"
-          alt="Profile"
-          className="w-5 h-3 rounded-full"
-        />
+        <p className="text-base font-medium">Admirra John</p>
+        <img src="./Vector.png" alt="Profile" className="w-5 h-3" />
       </div>
     </nav>
   );

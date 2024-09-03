@@ -2,7 +2,7 @@ import React from "react";
 
 const Schedule = () => {
   return (
-    <div className="w-[350px] h-auto border rounded-md p-3 absolute right-24 top-96 bg-white">
+    <div className="w-[350px] h-auto border rounded-md p-3 absolute right-8 top-96 bg-white">
       {/* Upcoming Schedule and Date in one line */}
       <div className="flex justify-between items-center mb-4">
         <p className="text-[16px] font-medium leading-[24px] text-left">
